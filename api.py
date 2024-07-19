@@ -6,7 +6,7 @@ def main():
     os.system('cls' if os.name == 'nt' else 'clear')
     escolher_opcoes()
     
-
+    
 def invalido():
     os.system('cls')
     print('Opção inválida')
