@@ -38,9 +38,11 @@ while opcao != 4:
         soma = 0
         for nota in notas:
             soma = soma + nota
-            print(soma)
         media =  soma / len(notas)
-        input(print(f'Aperte o enter para continuar: {media}'))
+        print(f"Sua média foi de {media} ")
+        input(print(f'Aperte o enter para continuar:'))
+#poderia só usar media = sum(nota) / len(notas)
+
 
     def sair():
         os.system('cls')

@@ -48,3 +48,5 @@ while True:
 
 # Fechar a janela
 janela.close()
+
+#agora preciso aprender a formatar
